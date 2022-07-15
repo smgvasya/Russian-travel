@@ -1,0 +1,36 @@
+.page {
+    min-width: 320px;
+    max-width: 1920px;
+    height: fit-content;
+    margin: 0 auto;
+    font-family: 'Inter','Arial', sans-serif;
+    box-sizing: border-box;
+    background-color: #2A2C2F;
+    ;
+  }
+  
+  .header{
+    min-width: 288px;
+    min-height: 42px;
+    max-height: 52px;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 48px 56px;
+  }
+
+  .header__lang-link{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color:#FFFFFF;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    ;
+  }
+
+  .ru-link {
+    text-decoration: underline;
+    padding-right: 18px;
+  }
