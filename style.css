@@ -94,3 +94,12 @@
     max-width: 690px;
     max-height: 754px;
   }
+
+  .intro__title {
+    margin: 0;
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 107%;
+  }
