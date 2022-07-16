@@ -24,9 +24,17 @@
     display: flex;
     align-items: flex-end;
     margin: 0;
-    font-style: normal;
     font-size: 24px;
     line-height: 117%;
+  }
+
+  .ru-link:hover {
+    opacity: 0.5;
+    transition: 1s;
+  }
+
+  .en-link:hover {
+    opacity: 0.5;
     transition: 1s;
   }
 
@@ -34,11 +42,22 @@
     text-decoration: underline;
     padding-right: 18px;
     color:#FFFFFF;
+    transition: 1s;
   }
 
   .en-link {
     text-decoration: none;
     color:#FFFFFF;
+    transition: 1s;
+  }
+
+  .ru-link:hover {
+    opacity: 0.5;
+
+  }
+
+  .en-link:hover {
+    opacity: 0.5;
   }
 
   .lead{
@@ -50,7 +69,6 @@
   }
 
   .lead__title{
-    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 104%;
@@ -60,7 +78,6 @@
 
   .lead__subtitle{
     padding-top: 32px;
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 120%;
@@ -80,7 +97,6 @@
     margin: 0;
     padding-top: 8px;
     text-transform: uppercase;
-    font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 140%;
@@ -103,3 +119,46 @@
     font-size: 54px;
     line-height: 107%;
   }
+
+  .text {
+    margin: 0;
+    padding-bottom: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .intro__list{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 150%;
+  }
+
+  .intro_list-span{
+    font-weight: normal;
+  }
+
+   .photo-grid{
+    max-width: 1280px;
+    max-height: 2724px;
+    padding: 0 48px;
+
+
+  }
+
+.photo-grid__container{
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+  .photo-grid__image{
+    width: 284px;
+    height: 213px;
+    object-fit: cover;
+  }
+
