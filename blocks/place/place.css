@@ -1,0 +1,9 @@
+.place{
+    margin: 0;
+    padding-bottom: 80px;
+    max-width: 984px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row:2;
+  }

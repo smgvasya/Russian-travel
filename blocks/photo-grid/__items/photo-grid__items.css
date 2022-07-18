@@ -1,0 +1,7 @@
+.photo-grid__items{
+    display: grid;
+    gap: 16px;
+    margin: 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
