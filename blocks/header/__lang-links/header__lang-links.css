@@ -4,4 +4,14 @@
     margin: 0;
     font-size: 24px;
     line-height: 117%;
+    transition: .5s;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 767px){
+    .header__lang-links{
+      font-size: 18px;
+      line-height: 111%;
+    }
+  }
+
+  

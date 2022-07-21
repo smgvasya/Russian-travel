@@ -2,4 +2,5 @@
     text-decoration: underline;
     padding-right: 18px;
     color:#FFFFFF;
+    transition: .5s;
   }

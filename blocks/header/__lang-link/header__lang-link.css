@@ -1,7 +1,7 @@
 .header__lang-link{
     text-decoration: none;
     color:#FFFFFF;
-    transition: 1s;
+    transition: .5s;
   }
   
   .header__lang-link:hover {
