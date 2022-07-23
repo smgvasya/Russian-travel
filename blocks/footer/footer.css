@@ -1,7 +1,6 @@
 .footer{
     margin: 0;
     padding: 92px 48px 24px;
-    
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -19,6 +18,5 @@
     .footer{
       padding: 64px 118px 24px 16px;
       flex-direction: column;
-      height: 310px;
     }
 } 

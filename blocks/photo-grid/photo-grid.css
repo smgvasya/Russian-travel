@@ -15,6 +15,7 @@
       height: 942px;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(4, 1fr);
+      gap: 14px;
     }
 }
   @media screen and (min-width: 768px) and (max-width: 1023px){
